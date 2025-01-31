@@ -17,11 +17,182 @@
 </head>
 
 <body>
+    
+    <div class="col-xs-12 wide background-image pp-no-padding" style="background-color: blue; position: relative;">
+    
+        <div class="hidden-xs hidden-sm">
+            <div class="flex-container padding-header padding-page-side" style="background-color:white; position:relative">
+                <div class="col-md-3"><a href="/" style="padding: 20px; background-color: red"></a>
+            </div>
+                
+            <div class="col-md-8 col-lg-9 flex-container pp-no-padding">
+                
+                <div class="dropdown flex-container-tabs">
+                    <a class="ianlinn-menu-a dropbtn btn-active-menu">Tours <i class="fa fa-sort-down"></i></a>
+                    <div class="dropdown-content">
+                        Junior
+                    </div>
+                </div>
+                <a class="ianlinn-menu-a flex-container-tabs btn-active-menu" href="/travel trade">Travel Trade</a>
+                <a class="ianlinn-menu-a flex-container-tabs btn-active-menu" href="/about">About</a>
+            </div>
+            
+            <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+            
+            <div class="col-md-2 col-lg-2 flex-container pp-no-padding" style="float:right;">
+                <a class="coloured-background-btn" style="padding: 8px 15px; font-size: 1vw" href="https://melcc.glueup.com/account/login">Log in</a>&nbsp;
+                <a class="coloured-background-btn" style="padding: 8px 15px; font-size: 1vw" href="https://melcc.glueup.com/org/midlothianeastlothianchamber/memberships/">Join Us</a>
+            </div>
+            
+            <div class="padding-page-side container-fluid">
+            
+                <div class="padding-top-bottom-gap">
+                    Inclusion
+                    <br>
+                    <button>Join Us</button>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="hidden-lg hidden-md">
+        <div class="row" style="padding:0px 30px 30px 30px; background-color:white; position:relative">
+        <div class="col-xs-8 col-sm-11"><a href="/"><img src="<?php print $upload_dir['baseurl']; ?>/melcc-logo-black.png"
+        class="img-responsive"
+        alt="Midlothian and East Lothian Chamber of Commerce Limited"></a>
+        </div>
+        
+        
+        <div class="col-xs-3 col-sm-1 pp-no-padding" style="font-size:26px; float:right">
+        <a href="javascript:void(0);" class="icon white" onclick="menuToggle()">
+        <i class="fa fa-bars" style="padding: 15px; color:#FFCB66; font-size: 40px;"></i>
+        </a>
+        </div>
+        <div class="col-xs-12 no-padding-left-right">
+        <script>
+        function menuToggle() {
+        var x = document.getElementById("mobileMenu");
+        if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
+        }
+        </script>
+        
+        <a href="#home" class="active"></a>
+        <div id="mobileMenu" class="col-xs-12 flex-left mobile-menu" style="display: none;">
+        
+        <div class="subnav">
+        <a href="#" class="subnavbtn a-black melcc-menu-a">
+        Home
+        </a>
+        </div>
+        <div class="subnav">
+        <a href="#" class="subnavbtn a-black melcc-menu-a">
+        Membership <i class="glyphicon glyphicon-menu-down"></i>
+        </a>
+        <div class="subnav-content mobile-subnav-content">
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        <div class="subnav-column">
+        <a href="<?php echo home_url( '/' ); ?>reasons-to-join" class="wide a-black pp-padding-bottom">Reasons To Join</a>
+        <a href="<?php echo home_url( '/' ); ?>members-directory" class="wide a-black pp-padding-bottom">Members Directory</a>
+        <a href="<?php echo home_url( '/' ); ?>members-benefit" class="wide a-black pp-padding-bottom">Members Benefits</a>
+        <a href="<?php echo home_url( '/' ); ?>members-offers" class="wide a-black pp-padding-bottom">Members Offers</a>
+        <a href="<?php echo home_url( '/' ); ?>premier-partners" class="wide a-black pp-padding-bottom">Premier Partners</a>
+        <a href="<?php echo home_url( '/' ); ?>premier-partners-benefits" class="wide a-black pp-padding-bottom">Premier Partners Benefits</a>
+        <a href="<?php echo home_url( '/' ); ?>members-testimonials" class="wide a-black pp-padding-bottom">Members Testimonials</a>
+        </div>
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        </div>
+        </div>
+        
+        <div class="subnav">
+        <a href="#" class="subnavbtn a-black melcc-menu-a">
+        Services <i class="glyphicon glyphicon-menu-down"></i>
+        </a>
+        <div class="subnav-content mobile-subnav-content">
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        <div class="subnav-column">
+        <a href="<?php echo home_url( '/' ); ?>education" class="wide a-black pp-padding-bottom">Chamber Education</a>
+        <a href="<?php echo home_url( '/' ); ?>business-support" class="wide a-black pp-padding-bottom">Business Support</a>
+        <a href="<?php echo home_url( '/' ); ?>environmental-support" class="wide a-black pp-padding-bottom">Environmental Support</a>
+        <a href="<?php echo home_url( '/' ); ?>discounted-benefits" class="wide a-black pp-padding-bottom">Discounted Benefits</a>
+        <a href="<?php echo home_url( '/' ); ?>member-marketing" class="wide a-black pp-padding-bottom">Member Marketing</a>
+        <a href="<?php echo home_url( '/' ); ?>east-lothian-council" class="wide a-black pp-padding-bottom">East Lothian Council</a>
+        <a href="<?php echo home_url( '/' ); ?>midlothian-council" class="wide a-black pp-padding-bottom">Midlothian Council</a>
+        <a href="<?php echo home_url( '/' ); ?>latest-news" class="wide a-black pp-padding-bottom">Latest News</a><br>
+        <a href="<?php echo home_url( '/' ); ?>podcast" class="wide a-black pp-padding-bottom">Podcast</a><br>
+        <a href="<?php echo home_url( '/' ); ?>blog" class="wide a-black pp-padding-bottom">Blog</a><br>
+        </div>
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        </div>
+        </div>
+        
+        <div class="subnav">
+        <a href="#" class="subnavbtn a-black melcc-menu-a">
+        Awards <i class="glyphicon glyphicon-menu-down"></i>
+        </a>
+        <div class="subnav-content mobile-subnav-content">
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        <div class="subnav-column">
+        <a href="<?php echo home_url( '/' ); ?>awards-info" class="wide a-black pp-padding-bottom">Awards Info</a><br>
+        <a href="<?php echo home_url( '/' ); ?>awards-criteria" class="wide a-black pp-padding-bottom">Awards Criteria</a><br>
+        <a href="<?php echo home_url( '/' ); ?>categories-forms" class="wide a-black pp-padding-bottom">Categories & Forms</a><br>
+        <a href="<?php echo home_url( '/' ); ?>awards-sponsors" class="wide a-black pp-padding-bottom">Awards Sponsors</a><br>
+        <a href="<?php echo home_url( '/' ); ?>past-winners-info-and-photos" class="wide a-black pp-padding-bottom">Past winners info and photos</a><br>
+        </div>
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        </div>
+        </div>
+        
+        <div class="subnav">
+        <a href="#" class="subnavbtn a-black melcc-menu-a">
+        Events <i class="glyphicon glyphicon-menu-down"></i>
+        </a>
+        <div class="subnav-content mobile-subnav-content">
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        <div class="subnav-column">
+        <a href="<?php echo home_url( '/' ); ?>chamber-events" class="wide a-black pp-padding-bottom">Chamber Events</a>
+        <a href="<?php echo home_url( '/' ); ?>member-events" class="wide a-black pp-padding-bottom">Member Events</a>
+        <a href="<?php echo home_url( '/' ); ?>events-sponsorship" class="wide a-black pp-padding-bottom">Events Sponsorship</a>
+        </div>
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        </div>
+        </div>
+        
+        <div class="subnav">
+        <a href="#" class="subnavbtn a-black melcc-menu-a">
+        About <i class="glyphicon glyphicon-menu-down"></i>
+        </a>
+        <div class="subnav-content mobile-subnav-content">
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        <div class="subnav-column">
+        <a href="<?php echo home_url( '/' ); ?>meet-chamber-team" class="wide a-black pp-padding-bottom">Meet Chamber Team</a><br>
+        <a href="<?php echo home_url( '/' ); ?>meet-chamber-board" class="wide a-black pp-padding-bottom">Meet Chamber Board</a><br>
+        <a href="<?php echo home_url( '/' ); ?>contact-us" class="wide a-black pp-padding-bottom">Contact Us</a><br>
+        </div>
+        <div class="clearfix pp-padding-bottom pp-padding-top"></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div style="text-align:center; padding: 100px 10px 100px 10px">
+        <h2><span class="color-ffffff">Supporting you at </span><span class="color-E1AC61">Every Stage</span><span class="color-ffffff"> of Your Business</span></h2>
+        <br>
+        <a class="coloured-background-btn" href="https://melcc.glueup.com/account/login">Learn More &nbsp; <i class="fa fa-arrow-right"></i></a>
+        </div>
+        
+        </div>-->
+    </div>
+    
 
+<!--
 <div class="hidden-xs hidden-sm" style="position:relative;">
 <div id="imageCarousel" class="carousel slide wide" data-ride="carousel" style="position:absolute">
 <div class="carousel-indicators" style="background-color:transparent">
-<!-- Left and right controls -->
+<!- Left and right controls --
 <a href="#imageCarousel" data-slide="prev" style="font-size:24px; color:white; background-color:transparent; padding-right:20px">
 <span class="glyphicon glyphicon-menu-left glyphicon-white"></span>
 <span class="sr-only">Previous</span>
@@ -34,7 +205,7 @@
 
 
 
-<!-- Wrapper for slides -->
+<!- Wrapper for slides --
 <div class="carousel-inner">
 <div class="item active" style="background-color: #060606">
 <img class="img-responsive wide black-opacity" src="<?php echo home_url() ?>/wp-content/uploads/ianlinn-private-scottish-tours-front-page-1.jpg" class="d-block w-100" alt="iannlinn-private-scottish-tours">
@@ -294,7 +465,7 @@ Best of Scotland <br class="hidden-sm">Custom Tours
 <a href="#home" class="active"></a>
 <div id="mobileMenu" class="col-xs-12flex-left mobile-menu" style="padding: 5px 10px 5px 10px">
 <a href="/home" class="white <?php echo do_shortcode('[pptour_current_page_sc post_name="' . $current_page_slug . '" page_title="home"]'); ?>">Home</a><br>
-<!--<a href="/" class="white">Tours <i class="fa fa-sort-down"></i></a><br>-->
+<!--<a href="/" class="white">Tours <i class="fa fa-sort-down"></i></a><br>--
 
 
 <a href="javascript:void(0);" class="white" onclick="tourToggle()">
@@ -351,3 +522,4 @@ x.style.display = "block";
 </div>
 </div>
 </div>
+-->
